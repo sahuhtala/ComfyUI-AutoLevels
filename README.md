@@ -4,13 +4,15 @@ Automatically set the black and white points of an image. Use **Auto Levels** to
 
 ## Installation
 
-1. On this repository's GitHub page, select **Code → Download ZIP** and extract it.
-2. Move the extracted folder into ComfyUI's `custom_nodes` directory and name it `ComfyUI-AutoLevels`. The resulting path is `ComfyUI/custom_nodes/ComfyUI-AutoLevels/__init__.py`.
-3. Restart ComfyUI and search for **Auto Levels** in the node menu. It appears under **image → adjustments**.
+With Git installed, open a terminal in your ComfyUI `custom_nodes` folder and run this command.
 
-If you use Git, you can clone the repository into `custom_nodes` using the HTTPS URL under **Code**. If you previously installed the standalone `auto_levels.py`, move that copy out of `custom_nodes` before restarting to avoid loading the node twice.
+```bash
+git clone https://github.com/sahuhtala/ComfyUI-AutoLevels.git
+```
 
-The node uses the PyTorch that comes with ComfyUI.
+If you previously put a standalone `auto_levels.py` directly in `custom_nodes`, move that copy out of the folder before restarting so ComfyUI loads the node once.
+
+Restart ComfyUI and search for **Auto Levels** in the node menu under **image → adjustments**. The node uses the PyTorch that comes with ComfyUI.
 
 ## Usage
 
