@@ -10,8 +10,6 @@ With Git installed, open a terminal in your ComfyUI `custom_nodes` folder and ru
 git clone https://github.com/sahuhtala/ComfyUI-AutoLevels.git
 ```
 
-If you previously put a standalone `auto_levels.py` directly in `custom_nodes`, move that copy out of the folder before restarting so ComfyUI loads the node once.
-
 Restart ComfyUI and search for **Auto Levels** in the node menu under **image → adjustments**. The node uses the PyTorch that comes with ComfyUI.
 
 ## Usage
